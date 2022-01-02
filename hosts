@@ -1,0 +1,6 @@
+[masters]
+10.100.11.68 ansible_ssh_user=liel ansible_ssh_pass=024680 ansible_sudo_pass=024680
+
+[servers]
+10.100.11.70  ansible_ssh_user=server1 ansible_ssh_pass=123456 ansible_sudo_pass=123456
+10.100.11.71  ansible_ssh_user=server2 ansible_ssh_pass=123456 ansible_sudo_pass=123456
