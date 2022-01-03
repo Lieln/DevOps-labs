@@ -1,0 +1,3 @@
+# vars file for dockermanager
+tokennpde: "{{ hostvaars.manager.bootstrap_first_node.stdout.split('n')[5].split('')[5] }}"
+hostmanager: "{{ hostvaars.manager.bootstrap_first_node.stdout.split('n')[6] }}"
