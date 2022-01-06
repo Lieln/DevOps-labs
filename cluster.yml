@@ -1,0 +1,13 @@
+nodes:
+  - address: 10.100.11.70
+    user: server
+    password: 0
+    ssh_key_path: ~/.ssh/id_rsa
+    role: [controlplane,worker,etcd]
+
+services:
+  etcd:
+    snapshot: true
+    creation: 6h
+    retention: 24h
+
